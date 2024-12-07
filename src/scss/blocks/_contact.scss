@@ -1,0 +1,102 @@
+.contact {
+  border-radius: 40px;
+  background: var(--color-white);
+  padding: 60px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  &__text {
+    max-width: 430px;
+    display: flex;
+    flex-direction: column;
+  }
+  .title {
+    padding-bottom: 30px;
+  }
+  .description {
+    padding-bottom: 12px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(50, 50, 50, 0.5);
+
+    span {
+      font-weight: 600;
+    }
+  }
+  .address {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 22px;
+    color: #323232;
+    padding-bottom: 25px;
+  }
+  .time {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(50, 50, 50, 0.5);
+    padding-bottom: 35px;
+  }
+  .phone {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 36px;
+    color: #323232;
+    padding-bottom: 5px;
+  }
+  &__block {
+    display: flex;
+    gap: 25px;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    max-width: 215px;
+    &-text {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 157%;
+      color: #323232;
+      padding-bottom: 5px;
+    }
+  }
+  &__item-parking {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    background: #015fa9;
+    margin-bottom: 12px;
+  }
+  &__item-metro {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    background: #f34343;
+    margin-bottom: 12px;
+  }
+  &__parking {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 167%;
+    color: rgba(50, 50, 50, 0.5);
+  }
+  &__metro {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #c49e68;
+  }
+}

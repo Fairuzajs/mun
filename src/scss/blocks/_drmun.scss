@@ -1,0 +1,44 @@
+.drmun {
+  border-radius: 40px;
+  background: var(--color-white);
+  padding: 60px;
+margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 58px;
+  &__img {
+    width: 500px;
+    height: 450px;
+    img {
+      border-radius: 30px;
+    }
+  }
+  &__text {
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    
+    h2 {
+      font-family: var(--second-family);
+      font-style: italic;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 110%;
+      letter-spacing: -0.02em;
+      color: #323232;
+    }
+    img {
+        position: absolute;
+        right: 56px;
+        bottom: -55px;
+    }
+  }
+  .drmun-author {
+    margin-left: 60px;
+    width: 240px;
+    transform: translateY(5px);
+  }
+
+}

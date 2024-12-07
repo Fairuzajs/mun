@@ -1,0 +1,137 @@
+.compatation {
+  border-radius: 40px;
+  background: var(--color-white);
+  padding: 60px;
+  margin-top: 20px;
+}
+
+.slider-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #f6f6f6;
+  transition: all 0.5s;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  svg path {
+    fill: #323232;
+    transition: all 0.5s;
+  }
+  &:hover {
+    cursor: pointer;
+    background: var(--color-gold);
+  }
+  &:hover svg path {
+    fill: var(--color-white);
+  }
+}
+
+.swiper-scrollbar {
+  height: 15px;
+  background: rgba(35, 35, 35, 0.1);
+  border-radius: 100px;
+}
+
+.swiper-scrollbar-drag {
+  background: var(--color-gold);
+}
+
+.swiper-pagination {
+  color: #323232;
+}
+
+.swiper1 {
+  .slider-header {
+    padding-bottom: 40px;
+  }
+  .swiper-slide {
+    width: 320px;
+    height: 350px;
+    position: relative;
+    border-radius: 30px;
+    background: linear-gradient(
+      163deg,
+      rgba(29, 28, 28, 0.7) 0%,
+      rgba(29, 28, 28, 0.7) 100%
+    );
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 30px;
+    }
+    .slider-block {
+      position: absolute;
+      top: 35px;
+      left: 40px;
+    }
+    h3 {
+      font-family: var(--second-family);
+      font-weight: 400;
+      font-size: 36px;
+      letter-spacing: -0.02em;
+      color: #fff;
+      padding-bottom: 10px;
+    }
+    p {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 157%;
+      color: rgba(255, 255, 255, 0.75);
+    }
+  }
+}
+
+.photo {
+  border-radius: 40px;
+  background: var(--color-white);
+  padding: 60px;
+  margin-top: 20px;
+  .swiper6 {
+    position: relative;
+    .swiper-slide {
+      width: 1040px;
+      height: 600px;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+
+      border-radius: 30px;
+    }
+  }
+  .slider-button {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background:var(--color-white);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    top: 45%;
+  }
+  .slider-button-next {
+    right: -35px;
+
+  }
+  .slider-button-prev {
+    left: -35px;
+
+  }
+}

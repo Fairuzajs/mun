@@ -1,0 +1,40 @@
+.animation {
+  border-radius: 40px;
+  background: var(--color-white);
+  padding: 60px;
+  margin-top: 20px;
+  &__text {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 42px;
+    &-left {
+        max-width: 410px;
+      .title {
+        padding-bottom: 15px;
+      }
+      .paragraph {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        color: rgba(50, 50, 50, 0.5);
+      }
+    }
+    &-right {
+        max-width: 510px;
+        padding: 23px 33px;
+        border-radius: 30px;
+        border: 1px dashed rgba(255, 255, 255, 0.35);
+      .description {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        color: #323232;
+        span {
+            font-weight: 600;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+section 
+  .container 
+    .contact
+      .contact__text 
+        h2.title Клиника «Dr.Mun» находится в самом сердце столицы
+        p.description В 4 минутах от <span>м Проспект Мира</span>
+        a.address(href="") Москва, Проспект Мира 16, стр. 2
+        a.phone(href="tel:8 800 999 00 99") 8 800 999 00 99
+        p.time с 10:00 до 21:00
+        .contact__block 
+          .contact__item 
+            .contact__item-parking 
+              img(src="../../img/icons/Р.svg", alt="парковка")
+            p.contact__item-text Для наших пациентов <br>есть частная парковка
+            p.contact__parking Если вы за рулем, заранее сообщите об этом менеджеру, чтобы выписали пропуск на ваш автомобиль
+          .contact__item 
+            .contact__item-metro 
+              img(src="../../img/icons/m.svg", alt="")
+            p.contact__item-text Если вы <br>едете на метро:
+            p.contact__metro Открыть маршрут “Как пройти от метро”
+      .contact__map(id="map",style="width: 580px; height: 559px") 
+        <script src="https://api-maps.yandex.ru/2.1/?apikey=0c6d9694-b8b8-4cb4-8337-7e4c87b3f908&lang=ru_RU"></script>

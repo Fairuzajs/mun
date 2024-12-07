@@ -1,0 +1,75 @@
+.about {
+  background: var(--color-white);
+  margin-top: 20px;
+  border-radius: 40px;
+  padding: 8px 40px 43px 60px;
+  display: flex;
+  gap: 77px;
+  align-items: center;
+  &__right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    padding-top: 30px;
+
+  }
+  &-block {
+    border-radius: 30px;
+    width: 270px;
+    height: 169px;
+    background-color: rgba(246, 246, 246, 0.65);
+    padding: 63px 57px 28px 33px;
+    position: relative;
+    img {
+      position: absolute;
+      top: 25px;
+      left: 34px;
+    }
+  }
+  &-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #323232;
+  }
+  &-p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: rgba(50, 50, 50, 0.5);
+
+
+  }
+  &__left {
+    border-right: 1px dashed #c0c0c0;
+    padding-right: 56px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    
+  }
+  .bigstar {
+    position: absolute;
+    top: 3px;
+    right: 90px;
+  }
+
+}
+
+
+.bigstar {
+  background-image: url(../../img/Star-main.svg);
+  background-repeat: no-repeat;
+  width: 55px;
+  
+  height: 55px;
+  img {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+  }
+}

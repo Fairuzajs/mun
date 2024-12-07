@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'FONTSPRING DEMO - Quincy CF';
+    src: url('FONTSPRINGDEMO-QuincyCFLightItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-QuincyCFLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Quincy CF';
+    src: url('FONTSPRINGDEMO-QuincyCFLightRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-QuincyCFLightRegular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
